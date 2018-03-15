@@ -145,8 +145,7 @@ if __name__ == '__main__':
             cv2.putText(frame, " Video : " + str(i), (100, 80), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50, 170, 50), 2);
 
             # Display Co-ordinates on frame
-            cv2.putText(frame, "Co-ordinates : " + str(x) + " , " + str(y), (100, 120),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50, 170, 50), 2);
+            cv2.putText(frame, "Co-ordinates : " + str(x) + " , " + str(y), (100, 120), cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50, 170, 50), 2);
 
 
 
